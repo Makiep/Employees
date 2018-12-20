@@ -1,0 +1,9 @@
+C:\Users\bndingin\source\repos\SmartCity\SmartCity.Core\obj\Debug\netcoreapp2.0\SmartCity.Core.csproj.CoreCompileInputs.cache
+C:\Users\bndingin\source\repos\SmartCity\SmartCity.Core\obj\Debug\netcoreapp2.0\SmartCity.Core.AssemblyInfoInputs.cache
+C:\Users\bndingin\source\repos\SmartCity\SmartCity.Core\obj\Debug\netcoreapp2.0\SmartCity.Core.AssemblyInfo.cs
+C:\Users\bndingin\source\repos\SmartCity\SmartCity.Core\bin\Debug\netcoreapp2.0\SmartCity.Core.deps.json
+C:\Users\bndingin\source\repos\SmartCity\SmartCity.Core\bin\Debug\netcoreapp2.0\SmartCity.Core.dll
+C:\Users\bndingin\source\repos\SmartCity\SmartCity.Core\bin\Debug\netcoreapp2.0\SmartCity.Core.pdb
+C:\Users\bndingin\source\repos\SmartCity\SmartCity.Core\obj\Debug\netcoreapp2.0\SmartCity.Core.dll
+C:\Users\bndingin\source\repos\SmartCity\SmartCity.Core\obj\Debug\netcoreapp2.0\SmartCity.Core.pdb
+C:\Users\bndingin\source\repos\SmartCity\SmartCity.Core\obj\Debug\netcoreapp2.0\SmartCity.Core.csprojResolveAssemblyReference.cache

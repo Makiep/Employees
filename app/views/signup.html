@@ -1,0 +1,64 @@
+  <form role="form" class="form-horizontal">
+    <h2 class="form-login-heading">Sign up</h2>
+    <div class="form-group">
+        <label class="col-sm-3 control-label">First Name:</label>
+        <div class="col-sm-5">
+            <input type="text" class="form-control" placeholder="Firstname" data-ng-model="signup.firstName" required autofocus>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-3 control-label">Last Name:</label>
+        <div class="col-sm-5">
+            <input type="text" class="form-control" placeholder="Lastname" data-ng-model="signup.lastName" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-3 control-label">Email:</label>
+        <div class="col-sm-5">
+            <input type="email" class="form-control" placeholder="Email" data-ng-model="signup.email" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-3 control-label">Password:</label>
+        <div class="col-sm-5">
+            <input type="password" class="form-control" placeholder="Password" data-ng-model="signup.password" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-3 control-label">Confirm Password:</label>
+        <div class="col-sm-5">
+            <input type="password" class="form-control" placeholder="Confirm Password" data-ng-model="signup.confirmPassword" required>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-3 control-label">Role:</label>
+        <div class="col-sm-5">
+            <select class="form-control" ng-model="signup.roleId" ng-selected="signup.roleId">
+                <option ng-repeat="option in roles" value="{{option.id}}">{{option.roleName}}</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-3 control-label">Manager:</label>
+        <div class="col-sm-5">
+            <select class="form-control" ng-model="signup.manager" ng-selected="signup.manager">
+                <option ng-repeat="option in employees" value="{{option.id}}">{{option.name}}</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-4 control-label"></label>
+        <div class="col-sm-3">
+            <button class="btn btn-md btn-info btn-block" type="submit" data-ng-click="register()">Sign Up</button>
+        </div>
+    </div>
+    <div>
+        <label class="col-sm-2 control-label"></label>
+        <div class="col-sm-8">
+            <ul>
+                <li id="errorMessages" class="alert alert-danger" data-ng-repeat="error in errors">{{error}}</li>
+            </ul>
+        </div>
+    </div>
+
+</form>

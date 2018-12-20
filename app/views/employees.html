@@ -1,0 +1,82 @@
+<form role="form" class="form-horizontal">
+	<h2 class="form-login-heading">Employee</h2>
+	<div class="form-group">
+		<label class="col-sm-3 control-label">First Name:</label>
+		<div class="col-sm-5">
+			<input type="text" class="form-control" placeholder="Firstname" data-ng-model="employee.firstName" required autofocus>
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-sm-3 control-label">Last Name:</label>
+		<div class="col-sm-5">
+			<input type="text" class="form-control" placeholder="Lastname" data-ng-model="employee.lastName" required>
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-sm-3 control-label">Role:</label>
+		<div class="col-sm-5">
+			<select class="form-control" ng-model="employee.roleId" ng-selected="employee.roleId">
+				<option ng-repeat="option in roles" value="{{option.id}}">{{option.roleName}}</option>
+			</select>
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-sm-3 control-label">Manager:</label>
+		<div class="col-sm-5">
+			<select class="form-control" ng-model="employee.managerId" ng-selected="employee.managerId">
+				<option ng-repeat="option in employeesDetails" value="{{option.id}}">{{option.firstName}}</option>
+			</select>
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-sm-3 control-label">Email:</label>
+		<div class="col-sm-5">
+			<input type="email" class="form-control" placeholder="Email" data-ng-model="employee.email" required>
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-sm-3 control-label">Password:</label>
+		<div class="col-sm-5">
+			<input type="password" class="form-control" placeholder="Password" data-ng-model="employee.password" required>
+		</div>
+	</div>
+	<div class="form-group">
+		<label class="col-sm-4 control-label"></label>
+		<div class="col-sm-2">
+			<button class="btn btn-md btn-info btn-block" type="submit" data-ng-click="register()">{{mode}}</button>
+		</div>
+		<div class="col-sm-2" ng-show=showDelete>
+			<button class="btn btn-md btn-info btn-block" type="submit" data-ng-click="delete()">Delete</button>
+		</div>
+	</div>
+	<h2 class="form-login-heading">Employees</h2>
+	<table class="table table-hover">
+		<thead>
+			<tr>
+				<th scope="col">Id</th>
+
+				<th scope="col">First Name</th>
+				<th scope="col">Last Name</th>
+				<th scope="col">Email</th>
+				<th scope="col">Manager</th>
+				<th scope="col">Role</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="x in employeesDetails" ng-click="loadEmployee(x.id)">
+				<td>{{ x.id }}</td>
+				<td>{{ x.firstName }}</td>
+				<td>{{ x.lastName }}</td>
+				<td>{{ x.email }}</td>
+				<td>{{x.manager}}</td>
+				<td>{{x.role}}</td>
+
+			</tr>
+		</tbody>
+	</table>
+
+	<span></span>
+</form>
+
+
+

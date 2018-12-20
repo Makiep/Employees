@@ -1,0 +1,8 @@
+C:\Dev\EmployeeManagement-master\EmployeeManagement.Core\bin\Release\netcoreapp2.0\EmployeeManagement.Core.deps.json
+C:\Dev\EmployeeManagement-master\EmployeeManagement.Core\bin\Release\netcoreapp2.0\EmployeeManagement.Core.dll
+C:\Dev\EmployeeManagement-master\EmployeeManagement.Core\bin\Release\netcoreapp2.0\EmployeeManagement.Core.pdb
+C:\Dev\EmployeeManagement-master\EmployeeManagement.Core\obj\Release\netcoreapp2.0\EmployeeManagement.Core.csproj.CoreCompileInputs.cache
+C:\Dev\EmployeeManagement-master\EmployeeManagement.Core\obj\Release\netcoreapp2.0\EmployeeManagement.Core.AssemblyInfoInputs.cache
+C:\Dev\EmployeeManagement-master\EmployeeManagement.Core\obj\Release\netcoreapp2.0\EmployeeManagement.Core.AssemblyInfo.cs
+C:\Dev\EmployeeManagement-master\EmployeeManagement.Core\obj\Release\netcoreapp2.0\EmployeeManagement.Core.dll
+C:\Dev\EmployeeManagement-master\EmployeeManagement.Core\obj\Release\netcoreapp2.0\EmployeeManagement.Core.pdb

@@ -1,0 +1,16 @@
+C:\Dev\EmployeeManagement-master\EmployeeManagement\bin\Release\netcoreapp2.0\EmployeeManagement.API.deps.json
+C:\Dev\EmployeeManagement-master\EmployeeManagement\bin\Release\netcoreapp2.0\EmployeeManagement.API.runtimeconfig.json
+C:\Dev\EmployeeManagement-master\EmployeeManagement\bin\Release\netcoreapp2.0\EmployeeManagement.API.runtimeconfig.dev.json
+C:\Dev\EmployeeManagement-master\EmployeeManagement\bin\Release\netcoreapp2.0\EmployeeManagement.API.dll
+C:\Dev\EmployeeManagement-master\EmployeeManagement\bin\Release\netcoreapp2.0\EmployeeManagement.API.pdb
+C:\Dev\EmployeeManagement-master\EmployeeManagement\bin\Release\netcoreapp2.0\EmployeeManagement.Core.dll
+C:\Dev\EmployeeManagement-master\EmployeeManagement\bin\Release\netcoreapp2.0\EmployeeManagement.Infrastructure.dll
+C:\Dev\EmployeeManagement-master\EmployeeManagement\bin\Release\netcoreapp2.0\EmployeeManagement.Infrastructure.pdb
+C:\Dev\EmployeeManagement-master\EmployeeManagement\bin\Release\netcoreapp2.0\EmployeeManagement.Core.pdb
+C:\Dev\EmployeeManagement-master\EmployeeManagement\obj\Release\netcoreapp2.0\EmployeeManagement.API.csprojAssemblyReference.cache
+C:\Dev\EmployeeManagement-master\EmployeeManagement\obj\Release\netcoreapp2.0\EmployeeManagement.API.csproj.CoreCompileInputs.cache
+C:\Dev\EmployeeManagement-master\EmployeeManagement\obj\Release\netcoreapp2.0\EmployeeManagement.API.AssemblyInfoInputs.cache
+C:\Dev\EmployeeManagement-master\EmployeeManagement\obj\Release\netcoreapp2.0\EmployeeManagement.API.AssemblyInfo.cs
+C:\Dev\EmployeeManagement-master\EmployeeManagement\obj\Release\netcoreapp2.0\EmployeeManagement.API.csproj.CopyComplete
+C:\Dev\EmployeeManagement-master\EmployeeManagement\obj\Release\netcoreapp2.0\EmployeeManagement.API.dll
+C:\Dev\EmployeeManagement-master\EmployeeManagement\obj\Release\netcoreapp2.0\EmployeeManagement.API.pdb

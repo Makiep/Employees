@@ -1,0 +1,12 @@
+C:\Dev\EmployeeManagement-master\EmployeeManagement.Infrastructure\bin\Release\netcoreapp2.0\EmployeeManagement.Infrastructure.deps.json
+C:\Dev\EmployeeManagement-master\EmployeeManagement.Infrastructure\bin\Release\netcoreapp2.0\EmployeeManagement.Infrastructure.dll
+C:\Dev\EmployeeManagement-master\EmployeeManagement.Infrastructure\bin\Release\netcoreapp2.0\EmployeeManagement.Infrastructure.pdb
+C:\Dev\EmployeeManagement-master\EmployeeManagement.Infrastructure\bin\Release\netcoreapp2.0\EmployeeManagement.Core.dll
+C:\Dev\EmployeeManagement-master\EmployeeManagement.Infrastructure\bin\Release\netcoreapp2.0\EmployeeManagement.Core.pdb
+C:\Dev\EmployeeManagement-master\EmployeeManagement.Infrastructure\obj\Release\netcoreapp2.0\EmployeeManagement.Infrastructure.csprojAssemblyReference.cache
+C:\Dev\EmployeeManagement-master\EmployeeManagement.Infrastructure\obj\Release\netcoreapp2.0\EmployeeManagement.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Dev\EmployeeManagement-master\EmployeeManagement.Infrastructure\obj\Release\netcoreapp2.0\EmployeeManagement.Infrastructure.AssemblyInfoInputs.cache
+C:\Dev\EmployeeManagement-master\EmployeeManagement.Infrastructure\obj\Release\netcoreapp2.0\EmployeeManagement.Infrastructure.AssemblyInfo.cs
+C:\Dev\EmployeeManagement-master\EmployeeManagement.Infrastructure\obj\Release\netcoreapp2.0\EmployeeManagement.Infrastructure.csproj.CopyComplete
+C:\Dev\EmployeeManagement-master\EmployeeManagement.Infrastructure\obj\Release\netcoreapp2.0\EmployeeManagement.Infrastructure.dll
+C:\Dev\EmployeeManagement-master\EmployeeManagement.Infrastructure\obj\Release\netcoreapp2.0\EmployeeManagement.Infrastructure.pdb

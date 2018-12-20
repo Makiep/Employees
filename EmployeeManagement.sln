@@ -1,0 +1,72 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManagement.API", "EmployeeManagement\EmployeeManagement.API.csproj", "{1D4603DA-6A6F-49CB-A309-EB7FE3C50AFC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManagement.Infrastructure", "EmployeeManagement.Infrastructure\EmployeeManagement.Infrastructure.csproj", "{C9EA47B3-BBFD-4C82-8637-640A649DB336}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManagement.Core", "EmployeeManagement.Core\EmployeeManagement.Core.csproj", "{6687258B-6353-4C3D-A3B5-DA70A7C7D6EB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManagement.Test", "EmployeeManagement.Test\EmployeeManagement.Test.csproj", "{AD9FD97E-1520-4C4F-9C5D-10974C32BF7E}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "app", "app\", "{769970A5-000D-4DD1-BE9A-BAAC1F8BB600}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54720"
+		Debug.AspNetCompiler.PhysicalPath = "app\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54720\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54720"
+		Release.AspNetCompiler.PhysicalPath = "app\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54720\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54720"
+		SlnRelativePath = "app\"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E85D12F0-C3CD-4A04-A987-A088FF75CC4F}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.docx = ReadMe.docx
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1D4603DA-6A6F-49CB-A309-EB7FE3C50AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D4603DA-6A6F-49CB-A309-EB7FE3C50AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D4603DA-6A6F-49CB-A309-EB7FE3C50AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D4603DA-6A6F-49CB-A309-EB7FE3C50AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9EA47B3-BBFD-4C82-8637-640A649DB336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9EA47B3-BBFD-4C82-8637-640A649DB336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9EA47B3-BBFD-4C82-8637-640A649DB336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9EA47B3-BBFD-4C82-8637-640A649DB336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6687258B-6353-4C3D-A3B5-DA70A7C7D6EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6687258B-6353-4C3D-A3B5-DA70A7C7D6EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6687258B-6353-4C3D-A3B5-DA70A7C7D6EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6687258B-6353-4C3D-A3B5-DA70A7C7D6EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD9FD97E-1520-4C4F-9C5D-10974C32BF7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD9FD97E-1520-4C4F-9C5D-10974C32BF7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD9FD97E-1520-4C4F-9C5D-10974C32BF7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD9FD97E-1520-4C4F-9C5D-10974C32BF7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{769970A5-000D-4DD1-BE9A-BAAC1F8BB600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{769970A5-000D-4DD1-BE9A-BAAC1F8BB600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{769970A5-000D-4DD1-BE9A-BAAC1F8BB600}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{769970A5-000D-4DD1-BE9A-BAAC1F8BB600}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB748ED4-CC99-4652-8408-F1FF36BD56BE}
+	EndGlobalSection
+EndGlobal
