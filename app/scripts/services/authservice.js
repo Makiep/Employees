@@ -44,8 +44,6 @@ angular
 				});
 			}
 
-			
-
 			function logIn(login) {
 				return $http.post(serviceBase + 'api/employees/login', login).then(function (response) {
 
@@ -73,7 +71,6 @@ angular
 					return results;
 				});
 			}
-
 
 			function logOut() {
 				localStorageService.remove('authorization');

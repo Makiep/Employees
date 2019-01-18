@@ -25,7 +25,19 @@ namespace EmployeeManagement.Infrastructure.Repository
 
         public IEnumerable<Employees> EmployeeDetails()
         {
-            return _employeesRepo.GetAll().ToList();
+            var employee = from emp in _employeesRepo.GetAll()
+                           join empMan in _employeeManagerRepo.GetAll()
+                            on emp.Id equals empMan.EmployeeId
+                           select new Employees
+                           {
+                               Id = emp.Id,
+                               FirstName = emp.FirstName,
+                               LastName = emp.LastName,
+                               RoleId = emp.RoleId,
+                               ManagerId = emp.ManagerId
+                           };
+
+            return employee;
         }
 
         public IEnumerable<Employees> GetAllEmployees()
@@ -35,10 +47,17 @@ namespace EmployeeManagement.Infrastructure.Repository
 
         public Employees GetEmployeeById(int empId)
         {
-            var employee = _employeesRepo.GetAll().FirstOrDefault(x => x.Id == empId);
-            employee.ManagerId = GetManagerId(employee.Id);
+            if (empId > 0)
+            {
+                var employee = _employeesRepo.GetAll().FirstOrDefault(x => x.Id == empId);
+                if (employee != null)
+                {
+                    employee.ManagerId = GetManagerId(employee.Id);
+                    return employee;
+                }
+            }
 
-            return employee;
+            return null;
         }
 
         public Employees GetEmployeeByEmail(string emailAdd)
@@ -70,7 +89,7 @@ namespace EmployeeManagement.Infrastructure.Repository
         public void SaveEmployees(Employees employee)
         {
             var employeeToEdit = _employeesRepo.GetAll().FirstOrDefault(x => x.Email == employee.Email);
-            if (employeeToEdit.Id > 0)
+            if (employeeToEdit != null)
             {
                 employeeToEdit.FirstName = employee.FirstName;
                 employeeToEdit.LastName = employee.LastName;
@@ -132,14 +151,20 @@ namespace EmployeeManagement.Infrastructure.Repository
             return employeesList;
         }
 
+        public EmployeeManager GetEmployeeManagerByEmployeeId(int employeeId)
+        {
+            var empMan = _employeeManagerRepo.GetAll().FirstOrDefault(x => x.EmployeeId == employeeId);
+            return empMan;
+        }
+
         private int GetManagerId(int employeeId)
         {
-            return _employeeManagerRepo.GetAll().FirstOrDefault(x => x.EmployeeId == employeeId).ManagerId;
+            var empMan = _employeeManagerRepo.GetAll().FirstOrDefault(x => x.EmployeeId == employeeId);
+            return empMan != null ? empMan.ManagerId : 0;
         }
 
         private void BulkResetEmployeesManager(IEnumerable<Employees> employeesList)
         {
-
             foreach (Employees employee in employeesList)
             {
                 employee.ManagerId = 0;

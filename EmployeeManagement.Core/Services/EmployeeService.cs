@@ -63,5 +63,10 @@ namespace EmployeeManagement.Core.Services
         {
             _employeeRepo.DeleteEmployee(Id);
         }
+
+        public EmployeeManager GetEmployeeManagerByEmployeeId(int employeeId)
+        {
+            return _employeeRepo.GetEmployeeManagerByEmployeeId(employeeId);
+        }
     }
 }

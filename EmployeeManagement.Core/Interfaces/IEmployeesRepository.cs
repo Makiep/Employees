@@ -15,6 +15,8 @@ namespace EmployeeManagement.Core.Interfaces
 
         Employees GetEmployeeByEmail(string email);
 
+        EmployeeManager GetEmployeeManagerByEmployeeId(int employeeId);
+
         bool DoesEmployeeExist(Employees employee);
 
         IEnumerable<Employees> GetAllEmployees();

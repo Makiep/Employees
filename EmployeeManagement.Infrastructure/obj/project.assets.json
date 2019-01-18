@@ -3398,11 +3398,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\EmployeeManagement-master\\EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Dev\\Employees\\EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj",
       "projectName": "EmployeeManagement.Infrastructure",
-      "projectPath": "C:\\Dev\\EmployeeManagement-master\\EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj",
+      "projectPath": "C:\\Dev\\Employees\\EmployeeManagement.Infrastructure\\EmployeeManagement.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\mphiri\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\EmployeeManagement-master\\EmployeeManagement.Infrastructure\\obj\\",
+      "outputPath": "C:\\Dev\\Employees\\EmployeeManagement.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3421,8 +3421,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Dev\\EmployeeManagement-master\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj": {
-              "projectPath": "C:\\Dev\\EmployeeManagement-master\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj"
+            "C:\\Dev\\Employees\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj": {
+              "projectPath": "C:\\Dev\\Employees\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj"
             }
           }
         }

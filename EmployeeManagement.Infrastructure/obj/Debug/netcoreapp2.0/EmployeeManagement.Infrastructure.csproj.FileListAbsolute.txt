@@ -34,3 +34,15 @@ C:\Dev\EmployeeManagement-master\EmployeeManagement.Infrastructure\obj\Debug\net
 C:\Dev\EmployeeManagement-master\EmployeeManagement.Infrastructure\obj\Debug\netcoreapp2.0\EmployeeManagement.Infrastructure.csproj.CopyComplete
 C:\Dev\EmployeeManagement-master\EmployeeManagement.Infrastructure\obj\Debug\netcoreapp2.0\EmployeeManagement.Infrastructure.dll
 C:\Dev\EmployeeManagement-master\EmployeeManagement.Infrastructure\obj\Debug\netcoreapp2.0\EmployeeManagement.Infrastructure.pdb
+C:\Dev\Employees\EmployeeManagement.Infrastructure\bin\Debug\netcoreapp2.0\EmployeeManagement.Infrastructure.deps.json
+C:\Dev\Employees\EmployeeManagement.Infrastructure\bin\Debug\netcoreapp2.0\EmployeeManagement.Infrastructure.dll
+C:\Dev\Employees\EmployeeManagement.Infrastructure\bin\Debug\netcoreapp2.0\EmployeeManagement.Infrastructure.pdb
+C:\Dev\Employees\EmployeeManagement.Infrastructure\bin\Debug\netcoreapp2.0\EmployeeManagement.Core.dll
+C:\Dev\Employees\EmployeeManagement.Infrastructure\bin\Debug\netcoreapp2.0\EmployeeManagement.Core.pdb
+C:\Dev\Employees\EmployeeManagement.Infrastructure\obj\Debug\netcoreapp2.0\EmployeeManagement.Infrastructure.csprojAssemblyReference.cache
+C:\Dev\Employees\EmployeeManagement.Infrastructure\obj\Debug\netcoreapp2.0\EmployeeManagement.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Dev\Employees\EmployeeManagement.Infrastructure\obj\Debug\netcoreapp2.0\EmployeeManagement.Infrastructure.AssemblyInfoInputs.cache
+C:\Dev\Employees\EmployeeManagement.Infrastructure\obj\Debug\netcoreapp2.0\EmployeeManagement.Infrastructure.AssemblyInfo.cs
+C:\Dev\Employees\EmployeeManagement.Infrastructure\obj\Debug\netcoreapp2.0\EmployeeManagement.Infrastructure.csproj.CopyComplete
+C:\Dev\Employees\EmployeeManagement.Infrastructure\obj\Debug\netcoreapp2.0\EmployeeManagement.Infrastructure.dll
+C:\Dev\Employees\EmployeeManagement.Infrastructure\obj\Debug\netcoreapp2.0\EmployeeManagement.Infrastructure.pdb

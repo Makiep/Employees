@@ -24,3 +24,12 @@ C:\Dev\EmployeeManagement-master\EmployeeManagement.Core\obj\Debug\netcoreapp2.0
 C:\Dev\EmployeeManagement-master\EmployeeManagement.Core\obj\Debug\netcoreapp2.0\EmployeeManagement.Core.dll
 C:\Dev\EmployeeManagement-master\EmployeeManagement.Core\obj\Debug\netcoreapp2.0\EmployeeManagement.Core.pdb
 C:\Dev\EmployeeManagement-master\EmployeeManagement.Core\obj\Debug\netcoreapp2.0\EmployeeManagement.Core.csprojAssemblyReference.cache
+C:\Dev\Employees\EmployeeManagement.Core\bin\Debug\netcoreapp2.0\EmployeeManagement.Core.deps.json
+C:\Dev\Employees\EmployeeManagement.Core\bin\Debug\netcoreapp2.0\EmployeeManagement.Core.dll
+C:\Dev\Employees\EmployeeManagement.Core\bin\Debug\netcoreapp2.0\EmployeeManagement.Core.pdb
+C:\Dev\Employees\EmployeeManagement.Core\obj\Debug\netcoreapp2.0\EmployeeManagement.Core.csprojAssemblyReference.cache
+C:\Dev\Employees\EmployeeManagement.Core\obj\Debug\netcoreapp2.0\EmployeeManagement.Core.csproj.CoreCompileInputs.cache
+C:\Dev\Employees\EmployeeManagement.Core\obj\Debug\netcoreapp2.0\EmployeeManagement.Core.AssemblyInfoInputs.cache
+C:\Dev\Employees\EmployeeManagement.Core\obj\Debug\netcoreapp2.0\EmployeeManagement.Core.AssemblyInfo.cs
+C:\Dev\Employees\EmployeeManagement.Core\obj\Debug\netcoreapp2.0\EmployeeManagement.Core.dll
+C:\Dev\Employees\EmployeeManagement.Core\obj\Debug\netcoreapp2.0\EmployeeManagement.Core.pdb

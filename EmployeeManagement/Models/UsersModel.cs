@@ -37,15 +37,6 @@ namespace EmployeeManagement.API
 
     }
 
-    public class EmployeeModel
-    {
-       public string Email { get; set; }
-       public string FirstName { get; set; }
-       public string LastName { get; set; }
-
-
-    }
-
     public class LoginModel
     {
         [Required]

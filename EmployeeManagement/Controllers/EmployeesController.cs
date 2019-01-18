@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using EmployeeManagement.Core.Entities;
-using EmployeeManagement.Infrastructure;
+using EmployeeManagement.API.Models;
 using EmployeeManagement.Core.Interfaces;
 
 namespace EmployeeManagement.API
@@ -42,11 +42,26 @@ namespace EmployeeManagement.API
         public IActionResult EmployeeDetails()
         {
             var employees = _employeesService.GetAllEmployees().ToList();
-            return Ok(employees);
+
+            var newEmployess = from empl in _employeesService.GetAllEmployees().ToList()
+                               select new EmployeeModel
+                               {
+                                   Id = empl.Id,
+                                   FirstName = empl.FirstName,
+                                   LastName = empl.LastName,
+                                   Email = empl.Email,
+                                   Password = empl.Password,
+                                   RoleId = empl.RoleId,
+                                   ManagerId = empl.ManagerId,
+                                   RoleName = _employeesService.GetRoleByEmployeeId(empl.RoleId).RoleName,
+                                   ManagerName = empl.ManagerId > 0 ? _employeesService.GetEmployeeById(empl.ManagerId).FirstName : "None"
+                               };
+
+            return Ok(newEmployess);
         }
 
         [HttpGet("employeesmanagershierarchy")]
-        public IActionResult EmployeesManagersHierarchy(int id)
+        private IActionResult EmployeesManagersHierarchy(int id)
         {
             var employees = _employeesService.GetEmployeeWithRelationships(id);
             return Ok(employees);
@@ -84,8 +99,21 @@ namespace EmployeeManagement.API
         }
 
         [HttpPost("SaveEmployees")]
-        public IActionResult SaveEmployees(Employees employee)
+        public IActionResult SaveEmployees([FromBody] EmployeeModel employeeModel)
         {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var employee = new Employees()
+            {
+                Email = employeeModel.Email,
+                FirstName = employeeModel.FirstName,
+                LastName = employeeModel.LastName,
+                Password = employeeModel.Password,
+                RoleId = employeeModel.RoleId,
+                ManagerId = employeeModel.ManagerId
+            };
+
             _employeesService.SaveEmployees(employee);
 
             return Ok();
@@ -133,7 +161,7 @@ namespace EmployeeManagement.API
         [AllowAnonymous]
         [Route("SignUp")]
         [HttpPost]
-        public IActionResult SignUp([FromBody]SignUpModel model)
+        public IActionResult SignUp([FromBody] SignUpModel model)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState.Values.SelectMany(v => v.Errors)

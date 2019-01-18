@@ -54,7 +54,7 @@ angular
 						$scope.employee.password = result.data.password;
 						$scope.employee.roleId = result.data.roleId;
 						$scope.employee.managerId = result.data.managerId;
-						$scope.mode = "Edit";
+						$scope.mode = "Update";
 						$scope.showDelete = true;
 					});
 			};

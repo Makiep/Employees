@@ -2798,11 +2798,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\EmployeeManagement-master\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj",
+      "projectUniqueName": "C:\\Dev\\Employees\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj",
       "projectName": "EmployeeManagement.Core",
-      "projectPath": "C:\\Dev\\EmployeeManagement-master\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj",
+      "projectPath": "C:\\Dev\\Employees\\EmployeeManagement.Core\\EmployeeManagement.Core.csproj",
       "packagesPath": "C:\\Users\\mphiri\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\EmployeeManagement-master\\EmployeeManagement.Core\\obj\\",
+      "outputPath": "C:\\Dev\\Employees\\EmployeeManagement.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
